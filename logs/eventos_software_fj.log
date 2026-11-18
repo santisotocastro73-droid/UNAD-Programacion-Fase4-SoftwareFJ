@@ -1,0 +1,16 @@
+2026-11-18 17:02:25 | INFO | === INICIO DE SIMULACIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-18 17:02:25 | INFO | Operación 1 exitosa: Cliente [CLI-01] - Laura Mendoza | Correo: laura.mendoza@correo.com | Tel: 3104567890
+2026-11-18 17:02:25 | INFO | Operación 2 exitosa: Cliente [CLI-02] - Carlos Ramírez | Correo: carlos.ramirez@empresa.co | Tel: 3209876543
+2026-11-18 17:02:25 | ERROR | Operación 3 controlada: No se pudo registrar el cliente con ID 'CLI-03': El correo 'pedrocorreo.com' no tiene un formato válido. | Causa original: El correo 'pedrocorreo.com' no tiene un formato válido.
+2026-11-18 17:02:25 | INFO | Operación 4 - Servicio creado: Servicio [SRV-01] Sala Ejecutiva Norte ($50,000.00/h) - Disponible | Tipo: Sala (Capacidad: 12 personas)
+2026-11-18 17:02:25 | INFO | Operación 4 - Servicio creado: Servicio [SRV-02] Workstation Dell Precision ($35,000.00/h) - Disponible | Tipo: Equipo (Profesional)
+2026-11-18 17:02:25 | INFO | Operación 4 - Servicio creado: Servicio [SRV-03] Arquitectura Cloud ($90,000.00/h) - Disponible | Tipo: Asesoría (Cloud & DevOps)
+2026-11-18 17:02:25 | ERROR | Operación 5 controlada: Error al crear el servicio 'SRV-99': La tarifa por hora debe ser mayor a cero. | Causa: La tarifa por hora debe ser mayor a cero.
+2026-11-18 17:02:25 | INFO | Operación 6 exitosa: Reserva [RES-01] | Estado: CONFIRMADA | Cliente: Laura Mendoza | Servicio: Sala Ejecutiva Norte (4h) | Total: $261,800.00
+2026-11-18 17:02:25 | INFO | Operación 7 exitosa: Reserva [RES-02] | Estado: CONFIRMADA | Cliente: Carlos Ramírez | Servicio: Workstation Dell Precision (3h) | Total: $123,700.50
+2026-11-18 17:02:26 | ERROR | Operación 8 controlada: No se pudo confirmar la reserva [RES-03]: La sala 'Sala Ejecutiva Norte' no se encuentra disponible. | Causa: La sala 'Sala Ejecutiva Norte' no se encuentra disponible.
+2026-11-18 17:02:26 | ERROR | Operación 9 controlada: No se pudo confirmar la reserva [RES-04]: El alquiler de equipos requiere un mínimo de 2 horas. | Causa: El alquiler de equipos requiere un mínimo de 2 horas.
+2026-11-18 17:02:26 | INFO | Operación 10 exitosa: Reserva [RES-01] | Estado: CANCELADA | Cliente: Laura Mendoza | Servicio: Sala Ejecutiva Norte (4h) | Total: $261,800.00
+2026-11-18 17:02:26 | WARNING | Operación 10 - Doble cancelación bloqueada: La reserva [RES-01] ya se encuentra cancelada.
+2026-11-18 17:02:26 | INFO | Bloque finally ejecutado. Estado actual de Sala Ejecutiva Norte: Disponible
+2026-11-18 17:02:26 | INFO | === FIN DE SIMULACIÓN DEL SISTEMA SOFTWARE FJ ===
